@@ -1,0 +1,810 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+/* header up starts from here  */
+.header-up{
+    width: 80%;
+    margin: 0 auto;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.container {
+    position: absolute;
+    top: 8%;
+    left: 0px;
+    width: 100%;
+    background-color: azure;
+}
+.white{
+    background-color: rgb(240, 220, 183);
+    position: sticky;
+  top: 0;
+  width: 100%;
+    z-index: 1;
+}
+.header-up-icon {
+    padding: 15px 2px;
+    font-size: 15px;
+}
+.header-up-icon i {
+    font-weight: 400;
+    color: darkgray;
+    padding: 0 4px;
+}
+.header-up-mail {
+    padding: 18px;
+    margin-left: 416px;
+    font-size: 15px;
+}
+.header-up-contact {
+    padding: 18px 0px;
+}
+.header-up-mail a {
+    color: gray;
+}
+/* Header part starts from here  */
+header{
+    z-index: 99;
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: -5px 3px 10px;
+}
+
+.header-logo{}
+.header-logo a img {
+    max-width: 78%;
+    margin-top: 3px;
+    margin-left: 129px;
+}
+.header-menu {
+    margin-left: 150px;
+}
+.header-menu ul {
+    display: flex;
+    margin: 12px 0px;
+}
+.header-menu ul li {
+    padding: 0px 6px;
+    font-size: 17px;
+}
+.header-menu ul li a:hover{
+    color: rgb(14, 1, 1);
+}
+.header-menu ul li a{}
+.header-menu ul li a i{}
+.call-to-action {
+    margin-right: 117px;
+    margin-top: 14px;
+}
+.call-to-action button {
+    padding: 8px 20px;
+    margin-top: -8px;
+    font-size: 18px;
+    background-color: #4242c8;
+    color: white;
+    font-weight: bold;
+    outline: none;
+    border: none;
+}
+.call-to-action button:hover{
+    outline: blue;
+    border: blue;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: .2s all ease-in-out;
+}
+#submenu {
+    display: inline;
+    visibility: hidden;
+    opacity: 0;
+    position: relative;
+    top: 20%;
+    left: 0%;
+    padding-right: 24px;
+}
+.header-menu ul li ul li a:hover{
+    color: white;
+}
+.header-menu ul li ul li:hover{
+    background-color: black;
+    color: wheat;
+}
+.header-menu ul li ul li{
+    background-color: rgb(223, 231, 212);
+    padding: 7px 10px;
+}
+.header-menu ul li:hover > #submenu{
+    display: inline;
+    visibility: visible;
+    opacity: 1;
+}
+.header-menu ul li:nth-child(4) {
+    margin-right: -36px;
+    margin-left: -45px;
+}
+.header-menu ul li:hover > #arekta{
+    visibility: visible;
+    opacity: 1;
+}
+#arekta{
+    display: inline;
+    visibility: hidden;
+    opacity: 0;
+    position: relative;
+    top: 20%;
+    left: 0%;
+    padding-right: 24px;
+}
+h1{
+    font-size: 60px;
+}
+
+/* Section1 has been started form here  */
+.section1 {
+    background-image: url(image/backgrounderdocktro.webp);
+    height: 600px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 690px 0px;
+}
+.faruk{
+    background-color:#d7e0e0;
+}
+.section1-text{
+    padding: 140px;
+}
+.section1-text p:nth-child(2) {
+    font-size: 50px;
+    margin-top: -37px;
+}
+.section1-text p:nth-child(3) {
+    font-size: 30px;
+    margin-top: -33px;
+}
+.faruk .section1 .section1-text button{
+    padding: 8px 20px;
+    margin-top: -8px;
+    font-size: 18px;
+    background-color: #4242c8;
+    color: white;
+    font-weight: bold;
+    outline: none;
+    border: none;
+}
+.faruk .section1 .section1-text button:hover{
+    outline: blue;
+    border:1px solid blue;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: .2s all ease-in-out;
+}
+/* section2 is gonna be started from here */
+.section2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.hospitality{
+    width: 35%;
+    background-color: #7ed9eb;
+}
+.emergency{
+    width: 30%;
+    background-color: aquamarine;
+}
+.chamber{
+    width: 35%;
+    background-color: #1cf2e8;
+}
+.hospitality{}
+.hospitality .hospitality-text {
+    padding-left: 149px;
+    padding-top: 46px;
+    padding-bottom: 35px;
+}
+.hospitality .hospitality-text i {
+    font-size: 52px;
+}
+.hospitality .hospitality-text h1 {
+    margin-top: 3px;
+}
+.hospitality .hospitality-text p {
+    font-size: 20px;
+    margin-top: -31px;
+}
+.hospitality .hospitality-text button {
+    padding: 9px;
+    background-color: blue;
+    font-size: 22px;
+    color: white;
+}
+.hospitality .hospitality-text button:hover{
+    background-color: wheat;
+    color: blue;
+    cursor: pointer;
+}
+
+.emergency{}
+.emergency .emergency-text {
+    padding-left: 24px;
+}
+.emergency .emergency-text i {
+    font-size: 60px;
+    margin-top: 43px;
+}
+.emergency .emergency-text h1 {
+    font-size: 49px;
+    margin-top: 4px;
+}
+.emergency .emergency-text p {
+    font-size: 19px;
+    margin-top: -19px;
+}
+.emergency .emergency-text button{
+    padding: 9px;
+    background-color: blue;
+    font-size: 22px;
+    color: white;
+}
+.emergency .emergency-text button:hover{
+    background-color: wheat;
+    color: blue;
+    cursor: pointer;
+}
+
+.chamber{}
+.chamber .chamber-text {
+    padding-left: 36px;
+    margin-top: 55px;
+}
+.chamber .chamber-text i {
+    font-size: 60px;
+    margin-top: -17px;
+}
+.chamber .chamber-text h1 {
+    margin-top: 8px;
+    font-size: 49px;
+}
+.chamber .chamber-text p {
+    font-size: 25px;
+    margin-top: -30px;
+}
+.chamber .chamber-text button {
+    padding: 9px;
+    background-color: blue;
+    font-size: 22px;
+    margin-top: -8px;
+    color: white;
+}
+.chamber .chamber-text button:hover{
+    background-color: wheat;
+    color: blue;
+    cursor: pointer;
+}
+/* section3 is here started  */
+.section3{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.section3 .left-image{
+    width: 50%;
+}
+.section3 .left-image .image1{
+
+}
+.section3 .left-image .image1 img{
+    background-repeat: no-repeat;
+}
+.section3 .left-image .image2 img {
+    position: relative;
+    top: -337px;
+    left: 200px;
+}
+.right-text{
+    width: 50%;
+    padding-left: 100px;
+}
+.right-text h2 {
+    font-size: 31px;
+    font-weight: 300;
+}
+.right-text h1 {
+    font-size: 54px;
+    margin-top: -22px;
+    line-height: 0.95;
+}
+.right-text p {
+    font-size: 19px;
+    margin-top: -16px;
+    margin-bottom: 0px;
+}
+.right-text ul {
+    display: inline;
+}
+.right-text ul li {
+    padding-left: 0px;
+    padding-bottom: 16px;
+    font-size: 21px;
+}
+.right-text ul li i {
+    padding-right: 10px;
+    font-size: 18px;
+    padding-top: 0px;
+}
+.right-text button{
+    padding: 9px;
+    background-color: blue;
+    font-size: 22px;
+    color: white;
+}
+.right-text button:hover{
+    background-color: wheat;
+    color: blue;
+    cursor: pointer;
+}
+/* section4 is gonna be started from here .  */
+
+.section4{
+    margin-top: -230px;
+    padding-bottom: 100px;
+    background-color: #f6ffff;
+}
+.section4-text{
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+}
+.section4-text h1 {
+    font-size: 45px;
+
+}
+.section4-text p {
+    font-size: 22px;
+    font-weight:100;
+}
+.grid{
+    width: 80%;
+    margin: 0 auto;
+    gap: 10px;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+.grid-box{
+    overflow: hidden;
+    transition: 0.4s all ease-in-out;
+}
+.grid-box img{
+    max-width: 95%;
+    transition: 0.4s all ease-in-out;
+
+}
+.grid-text{
+    width: 80%;
+    margin: 0 auto;
+}
+.grid-text h1 {
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+}
+.grid-text h1:hover{
+    color: #0c3d3b;
+}
+.grid-text p {
+    font-size: 19px;
+    margin-top: -16px;
+    font-weight: 100;
+    color: #884343cf;
+}
+.grid-text a {
+    font-size: 22px;
+    color: #18929e;
+}
+.grid-text a:hover{
+    border-bottom: 1px solid blue;
+}
+.grid-box:hover img{
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: 0.4s all ease-in-out;
+}
+/* slider section starts from here  */
+
+#slider{
+    overflow: hidden;
+}
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 25s slider infinite;
+}
+#slider figure div i {
+    padding: 255px 0px;
+    width: 60%;
+    margin: -110px 647px;
+    font-size: 50px;
+    font-weight: bold;
+    display: inline-block;
+}
+#slider figure div{  
+    padding-top: 40px;
+    padding-bottom: 120px;
+    background-color: #4242c8;
+    background-image: url(image/doctor\ care.webp);
+}
+#slider figure div p {
+    padding: 0px 0px;
+    width: 60%;
+    margin: 0 auto;
+    font-size: 26px;
+    font-weight: bold;
+    color: whitesmoke;
+    margin-top: -135px;
+}
+#slider figure div img{
+    max-width: 100%;
+}
+#slider figure div{
+    float: left;
+    width: 20%;
+}
+@keyframes slider{
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
+}
+/* Tab section design is here  */
+
+.mytabs .tab{
+    display: flex;
+}
+.tab-text{
+    width: 50%;
+}
+.tab-img{
+    width: 50%;
+}
+.tab-img img{
+    max-width: 100%;
+    margin: 0 auto;
+}
+.tab .tab-text i {
+    font-size: 40px;
+    background-color: #3186a8;
+    padding: 28px;
+    border-radius: 50%;
+}
+.tab-text h2{}
+.tab-text p {
+    width: 98%;
+}
+.tab .tab-img img{}
+
+
+
+/* Tab section is from here  */
+
+.full-tab{
+    background-color: #ccc;
+}
+.mytabs{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px auto;
+    padding: 25px;
+}
+.mytabs input[type="radio"]{
+    display: none;
+}
+.mytabs label{
+    padding: 20px;
+    background:#e2e2e2;
+    font-weight: bold;
+    font-size: 25px;
+}
+.mytabs .tab{
+    background: #fff;
+    padding: 20px;
+    width: 100%;
+    order: 1;
+    display: none;
+}
+.mytabs input[type="radio"]:checked + label + .tab{
+    display: flex;
+}
+.mytabs input[type="radio"]:checked +label{
+    background-color: #fff;
+}
+/* section experts starts from here  */
+
+
+.expert-doctor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.expert-doctor-text {
+    width: 50%;
+}
+.expert-doctor-text h1 {
+    font-size: 40px;
+}
+.expert-doctor-icon{}
+.expert-doctor-icon i {
+    padding: 9px;
+    font-size: 45px;
+    background-color: #dadaec40;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+/* grid doctor starts from here  */
+.grid-doctor{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+}
+.doctor-look{
+    text-align: center;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+.doctor-look:hover .doctor-text{
+    background-color: #1cf2e8;
+}
+.doctor-img img{
+    max-width: 100%;
+    transition: 0.3s all ease-in-out;
+
+}
+.doctor-text {
+    margin-top: -22px;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    cursor: pointer;
+}
+.doctor-img{
+    transition: 0.9s all ease-in-out;
+    overflow: hidden;
+}
+.doctor-look:hover .doctor-img img{
+    transform: scale(1.2);
+    transition: 0.4s all ease-in-out;
+}
+/* section5 starts from here  */
+.section5{
+    display: flex;
+    justify-content: space-between;
+}
+.pl-100{
+    padding-left: 120px;
+}
+.pr-20{
+    padding-right: 20px;
+}
+.pr-120{
+    padding-right: 120px;
+}
+.pl-20{
+    padding-left: 20px;
+}
+.five-left {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 75px 0px;
+    background-image: url(image/xemergency-2.png.pagespeed.ic.Db7myp6yIE.webp);
+    position:relative;
+}
+.five-left::before{
+    position: absolute;
+    content: "";
+    background-color: #5DB2FF;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: 0.6;
+}
+.five-left-text{
+    z-index: 1;
+    color: white;
+}
+.section5 .five-left-text h2{}
+.section5 .five-left-text p{}
+.five-left-button{
+    z-index: 1;
+}
+.five-left-button button {
+    padding: 11px;
+    font-size: 19px;
+    border-radius: 29px;
+    border: 1px solid white;
+    outline: none;
+    background-color: transparent;
+}
+.five-left-button button:hover{
+    background-color: white;
+    color:blue;
+    cursor: pointer;
+    transition: .2s all ease-in-out;
+}
+/* footer section starts from here   */
+footer{
+    padding: 80px 0px;
+    color: white;
+    background-color: rgb(43, 40, 40);
+}
+.footer-deep{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+.deep1{
+    width: 34%;
+}
+.deep2{
+    width: 22%;
+}
+.deep3{
+    width: 22%;
+}
+.deep4{
+    width: 22%;
+}
+.footer-deep ul{
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+.footer-deep{}
+.footer-deep .deep1{}
+.footer-deep .deep1 .footer-logo{}
+.footer-deep .deep1 .footer-logo img {
+    background-color: white;
+    padding: 4px 9px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.footer-deep .deep1 .footer-text{}
+.footer-deep .deep1 .footer-text h2 {
+    padding-top: 50px;
+    line-height: 36px;
+    padding-bottom: 26px;
+    width: 80%;
+    margin: 0px;
+}
+.footer-deep .deep1 .footer-social {
+    margin-left: -18px;
+}
+.footer-deep .deep1 .footer-social ul{
+    display: flex;
+}
+.footer-deep .deep1 .footer-social ul li{
+    padding: 0px 20px;
+}
+.footer-deep .deep1 .footer-social ul li i {
+    background-color: gray;
+    padding: 8px 12px;
+    font-size: 33px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.footer-deep .deep1 .footer-social ul li i:hover{
+    background-color: white;
+    color: black;
+}
+.footer-deep .deep2{}
+.footer-deep .deep2 h2{
+    font-size: 36px;
+    margin-top: 0px;
+}
+.footer-deep .deep2 ul{
+    padding-top: 41px;
+}
+.footer-deep .deep2 ul li {
+    font-size: 21px;
+    padding-bottom: 10px;
+    transition: .2s all ease-in-out;
+
+}
+.footer-deep .deep2 ul li:hover{
+    letter-spacing:2px;
+    color: yellow;
+    cursor: pointer;
+    transition: .2s all ease-in-out;
+}
+.footer-deep .deep3{}
+.footer-deep .deep3 h2{
+    font-size: 36px;
+    margin-top: 0px;
+}
+.footer-deep .deep3 ul{
+    padding-top: 41px;
+}
+.footer-deep .deep3 ul li{
+        font-size: 21px;
+        padding-bottom: 10px;
+        transition: .3s all ease-in-out;
+
+}
+.footer-deep .deep3 ul li:hover{
+    letter-spacing:2px;
+    color: yellow;
+    cursor: pointer;
+    transition: .2s all ease-in-out;
+}
+.footer-deep .deep4{}
+.footer-deep .deep4 h2{
+    font-size: 36px;
+    margin-top: 0px;
+}
+.footer-deep .deep4 p{
+    padding-top: 47px;
+}
+.footer-end{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-end p{
+    font-size: 20px;
+    color: gray;
+}
